@@ -45,14 +45,13 @@ assert_eq!(wtr, vec![5, 2, 0, 3]);
 
 #[cfg(feature = "std")]
 extern crate core;
+extern crate core_io;
 
 use core::mem::transmute;
 use core::ptr::copy_nonoverlapping;
 
-#[cfg(feature = "std")]
 pub use new::{ReadBytesExt, WriteBytesExt};
 
-#[cfg(feature = "std")]
 mod new;
 
 #[inline]

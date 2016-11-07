@@ -1,5 +1,5 @@
 [package]
-name = "byteorder"
+name = "byteorder_core_io"
 version = "0.5.3"  #:version
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
 description = "Library for reading/writing numbers in big-endian and little-endian."
@@ -12,6 +12,9 @@ license = "Unlicense/MIT"
 
 [lib]
 name = "byteorder"
+
+[dependencies]
+core_io = { version = "0.1" }
 
 [dev-dependencies]
 quickcheck = "0.2"

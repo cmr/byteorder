@@ -1,4 +1,4 @@
-use std::io::{self, Result};
+use core_io::{self as io, Result};
 
 use ByteOrder;
 

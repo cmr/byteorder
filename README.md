@@ -7,6 +7,10 @@ methods defined on the standard library `Reader` and `Writer` traits.
 
 Dual-licensed under MIT or the [UNLICENSE](http://unlicense.org).
 
+### This fork
+
+This fork uses core_io instead std::io, and is maintained by the Robigalia
+project (https://robigalia.org/).
 
 ### Documentation
 
